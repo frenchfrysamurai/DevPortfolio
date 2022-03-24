@@ -96,7 +96,7 @@ img {
 }
 
 .nav {
-    background: red;
+    background-color: rgba(68, 26, 197, 1);
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -129,6 +129,6 @@ img {
 }
 
 .nav-list a:hover {
-    background: blue;
+    background: rgba(141, 111, 228, 1);
 }
 
