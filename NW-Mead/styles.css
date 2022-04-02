@@ -114,24 +114,43 @@ img {
     margin-right: 2rem;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 28.75em) {  
     .nav {
-        justify-content: center;
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
     }
 
-    .nav-list {
-        margin: 0 1rem;
+    .nav #myLinks {
+        display: none;
     }
+    
+    .nav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size:17px;
+        display: block;
+    }
+
+    .nav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .nav a:hover {
+          background-color: #ddd;
+          color: black;
+      }
 }
 
-.nav-list a {
+/*.nav-list a {
     display: block;
     font-size: 2.2rem;
     padding: 2rem;
-}
-
-.nav-list a:hover {
-    background: rgba(141, 111, 228, 1);
 }
 
 .slogan {
@@ -191,3 +210,4 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+*/
