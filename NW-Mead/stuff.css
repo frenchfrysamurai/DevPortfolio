@@ -67,3 +67,14 @@ body {
     display: inline-block;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.slogan {
+    height: 200vh;
+}
+
