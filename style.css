@@ -153,6 +153,8 @@ img {
     font-weight: 200;
     font-style: italic;
     color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 /* Projects section */
